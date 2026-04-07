@@ -62,3 +62,12 @@ The models were evaluated independently on three separate linguistic datasets. T
 1. **Clone the repository**:
    ```bash
    git clone [https://github.com/YourUsername/YourRepoName.git](https://github.com/YourUsername/YourRepoName.git)
+
+2. **Setup the Environment**:
+   The notebook is natively configured to run on Google Colab. It automatically installs Java (OpenJDK 8), Apache Spark (3.5.5), and findspark to manage the PySpark session.
+
+3. **Dataset Preparation**:
+Upload your .wav files to Google Drive. Ensure the folder structure separates the languages appropriately (/english, /german, /french) and that the target emotion is included as the parent folder of the audio file to ensure correct dynamic labeling.
+
+4. **Execution**:
+Run all cells sequentially. The script will automatically mount your Google Drive, parallel-extract the audio features, train the models, and output the validation metrics.
