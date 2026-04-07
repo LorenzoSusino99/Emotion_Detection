@@ -61,7 +61,7 @@ The models were evaluated independently on three separate linguistic datasets. T
 
 1. **Clone the repository**:
    ```bash
-   git clone [https://github.com/YourUsername/YourRepoName.git](https://github.com/YourUsername/YourRepoName.git)
+   git clone https://github.com/LorenzoSusino99/Emotion_Detection.git
 
 2. **Setup the Environment**:
    The notebook is natively configured to run on Google Colab. It automatically installs Java (OpenJDK 8), Apache Spark (3.5.5), and findspark to manage the PySpark session.
